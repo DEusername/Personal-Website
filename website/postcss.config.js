@@ -1,6 +1,7 @@
-module.exports = {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-  },
+const obj = {
+    plugins: {
+        tailwindcss: {},
+        autoprefixer: {},
+    },
 }
+export default obj
