@@ -1,15 +1,15 @@
 /** @type {import('tailwindcss').Config} */
-
-import daisyui from 'daisyui'
-
-const obj = {
+module.exports = {
     content: [
-        "./src/**/*.{js,jsx,ts,tsx}", // <-- include all your React component files
+        "./src/**/*.{js,jsx,ts,tsx}", // Include all React component files
     ],
     theme: {
         extend: {},
     },
-    plugins: [daisyui], // <-- enable DaisyUI
-}
-
-export default obj
+    plugins: [
+        require("daisyui"), // Use require() for CommonJS
+    ],
+    daisyui: {
+        themes: ["garden", "luxury", "dark", "cymk"],
+    },
+};
