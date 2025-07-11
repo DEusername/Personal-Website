@@ -6,17 +6,18 @@ function Navbar() {
     return (
         <div className="navbar bg-base-100 shadow-sm">
             <div className="navbar-start">
-                <a className="btn btn-ghost text-xl">Duncan Everson</a>
+                <Link to="/Home" className="btn btn-ghost text-xl">Home</Link>
             </div>
-            <div className="navbar-center hidden lg:flex">
+            <div className="navbar-center">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a>About Me</a></li>
-                    <li><a>Soft Skills</a></li>
-                    <li><a>Software Projects</a></li>
+                    <li><Link to="/about">About Me</Link></li>
+                    <li><Link to="/soft-skills">Soft Skills</Link></li>
+                    <li><Link to="/software-projects">Software Projects</Link></li>
+                    <li><Link to="/business-projects">Business Projects</Link></li>
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Email</a>
+                <a href="mailto:duncan.everson@icloud.com" className="btn">Email</a>
             </div>
         </div>
     );
