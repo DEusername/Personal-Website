@@ -8,8 +8,8 @@ function Navbar() {
             <div className="navbar-start">
                 <Link to="/Home" className="btn btn-ghost text-xl">Home</Link>
             </div>
-            <div className="navbar-center">
-                <ul className="menu menu-horizontal px-1">
+            <div className="navbar-center font-medium">
+                <ul className="menu menu-horizontal px-1 text-lg">
                     <li><Link to="/about">About Me</Link></li>
                     <li><Link to="/soft-skills">Soft Skills</Link></li>
                     <li><Link to="/software-projects">Software Projects</Link></li>

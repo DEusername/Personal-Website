@@ -6,6 +6,14 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+/* Margin for keeping things away from the very edges of the screen. Also for centering text*/
+main {
+    max-width: 80%;
+    margin: auto;
+
+    text-align: center;
+}
+
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
@@ -13,6 +21,15 @@ code {
 
 .text-shadow-sm {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.20);
+}
+
+/* Creates a bubble effect around the inside text */
+.bubble {
+    padding: 10px 15px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    font-size: 1.2rem;
 }
 
 @tailwind base;
