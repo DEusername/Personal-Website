@@ -1,6 +1,9 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
 
+import 'swiper/css';
+import 'swiper/css/effect-cards';
+
+import { EffectCoverflow, Autoplay } from 'swiper/modules';
 
 function About() {
     return (
@@ -8,21 +11,38 @@ function About() {
             <main>
                 <h1 className="text-center font-bold text-shadow-sm text-4xl m-4">About Duncan Everson</h1>
 
-                <div>
-                    <Swiper
-                        spaceBetween={30}
-                        centeredSlides={true}
-                        slidesPerView={'auto'}
-                        loop={true}
-                    >
-                        <SwiperSlide><img src="/images/1.jpg" alt='' /></SwiperSlide>
-                        <SwiperSlide><img src="/images/2.jpg" alt='' /></SwiperSlide>
-                        <SwiperSlide><img src="/images/3.jpg" alt='' /></SwiperSlide>
-                        {/* Add more slides */}
-                    </Swiper>
+                <div className='mb-4'>
+                    <div className="carousel carousel-center bg-base-100 rounded-box max-w-lg space-x-4 p-4">
+                        <div className="carousel-item">
+                            <img
+                                src="./images/straight-on.jpeg"
+                                className="rounded-box max-h-96" />
+                        </div>
+                        <div className="carousel-item">
+                            <img
+                                src="./images/beaver.jpeg"
+                                className="rounded-box max-h-96" />
+                        </div>
+                        <div className="carousel-item">
+                            <img
+                                src="./images/white-shirt.jpeg"
+                                className="rounded-box max-h-96" />
+                        </div>
+                        <div className="carousel-item">
+                            <img
+                                src="./images/gym-pic.jpeg"
+                                className="rounded-box max-h-96" />
+                        </div>
+                        <div className="carousel-item">
+                            <img
+                                src="./images/bedroom-mirror.jpeg"
+                                className="rounded-box max-h-96" />
+                        </div>
+                    </div>
                 </div>
 
-                <div className='bubble text-left mx-auto w-4/5'>
+
+                <div className='bubble text-left mx-auto mb-8 w-4/5'>
                     <p className='mb-4'>
                         My name is Duncan Everson. I live in Oregon and am majoring in Computer
                         Science and am minoring in Innovation and Entrepreneurship.

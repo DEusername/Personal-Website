@@ -1,8 +1,0 @@
-.swiper-slide {
-    transition: transform 0.3s ease;
-    width: 200px;
-}
-
-.swiper-slide-active {
-    transform: scale(1.2);
-}
