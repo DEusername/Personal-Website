@@ -33,7 +33,7 @@ function Home() {
                         <ul tabIndex={0} className="dropdown-content menu p-2 mt-3 shadow 
                         bg-white rounded-box text-lg font-medium left-1/2 -translate-x-1/2">
                             <li><Link to="/about">About Me</Link></li>
-                            <li><Link to="/soft-skills">Soft Skills</Link></li>
+                            <li><Link to="/skills">Skills</Link></li>
                             <li><Link to="/software-projects">Software Projects</Link></li>
                             <li><Link to="/business-projects">Business Projects</Link></li>
                         </ul>
