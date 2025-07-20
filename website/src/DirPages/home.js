@@ -25,18 +25,21 @@ function Home() {
                         </img>
                     </div>
 
-                    <div className="dropdown dropdown-bottom relative">
-                        <button className="mt-4 text-xl shadow-lg btn bg-neonblue hover:bg-blue-100">
-                            Please enjoy reading over my website!
-                        </button>
+                    <div className="flex justify-center">
+                        <div className="dropdown dropdown-bottom relative">
+                            <button className="mt-4 text-xl shadow-lg btn bg-neonblue
+                             hover:bg-blue-100">
+                                Please enjoy reading over my website!
+                            </button>
 
-                        <ul tabIndex={0} className="dropdown-content menu p-2 mt-3 shadow 
-                        bg-white rounded-box text-lg font-medium left-1/2 -translate-x-1/2">
-                            <li><Link to="/about">About Me</Link></li>
-                            <li><Link to="/skills">Skills</Link></li>
-                            <li><Link to="/software-projects">Software Projects</Link></li>
-                            <li><Link to="/business-projects">Business Projects</Link></li>
-                        </ul>
+                            <ul tabIndex={0} className="dropdown-content menu p-2 mt-3 shadow 
+                                 bg-white rounded-box text-lg font-medium left-1/2 -translate-x-1/2">
+                                <li><Link to="/about">About Me</Link></li>
+                                <li><Link to="/skills">Skills</Link></li>
+                                <li><Link to="/software-projects">Software Projects</Link></li>
+                                <li><Link to="/business-projects">Business Projects</Link></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </main>

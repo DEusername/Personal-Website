@@ -11,7 +11,7 @@ function About() {
             <main>
                 <h1 className="text-center font-bold text-shadow-sm text-4xl m-4">About Duncan Everson</h1>
 
-                <div className='mb-4'>
+                <div className='mb-4 flex justify-center'>
                     <div className="carousel carousel-center bg-base-100 rounded-box max-w-lg space-x-4 p-4">
                         <div className="carousel-item">
                             <img
