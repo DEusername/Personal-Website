@@ -1,10 +1,3 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-import 'swiper/css';
-import 'swiper/css/effect-cards';
-
-import { EffectCoverflow, Autoplay } from 'swiper/modules';
-
 function About() {
     return (
         <div>
@@ -16,27 +9,36 @@ function About() {
                         <div className="carousel-item">
                             <img
                                 src="./images/straight-on.jpeg"
-                                className="rounded-box max-h-96" />
+                                className="rounded-box max-h-96"
+                                alt='A man with brown hair standing in front of a door 
+                                looking directly at a camera.' />
                         </div>
                         <div className="carousel-item">
                             <img
                                 src="./images/beaver.jpeg"
-                                className="rounded-box max-h-96" />
+                                className="rounded-box max-h-96"
+                                alt='A man with brown hair and glasses standing in front of a giant,
+                            inflatable beaver wearing Oregon State University sports merchandise.'/>
                         </div>
                         <div className="carousel-item">
                             <img
                                 src="./images/white-shirt.jpeg"
-                                className="rounded-box max-h-96" />
+                                className="rounded-box max-h-96"
+                                alt='A man with brown hair taking a mirror selfie in a white shirt.' />
                         </div>
                         <div className="carousel-item">
                             <img
                                 src="./images/gym-pic.jpeg"
-                                className="rounded-box max-h-96" />
+                                className="rounded-box max-h-96"
+                                alt='A man with brown hair standing in front of a mirror in a gym, 
+                                with gym equipment visible, taking a mirror selfie.'/>
                         </div>
                         <div className="carousel-item">
                             <img
                                 src="./images/bedroom-mirror.jpeg"
-                                className="rounded-box max-h-96" />
+                                className="rounded-box max-h-96"
+                                alt='A man with brown hair standing in front of a bedroom mirror taking
+                            a mirror selfie in front of his bed.'/>
                         </div>
                     </div>
                 </div>
