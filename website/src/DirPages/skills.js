@@ -10,7 +10,7 @@ function Skills() {
 
                 <div className="flex gap-4 mb-4">
                     <SmallCard
-                        title="Coding Languages."
+                        title="Coding Languages"
                         content="Proficient in C, C++, C#, JavaScript, HTML5/CSS3, CUDA, Python, and Go."
                     />
                     <SmallCard
@@ -85,7 +85,7 @@ function Skills() {
                     <SmallCard
                         title="Strategic Planning"
                         content="Created theoretical marketing plans to employ strategies given 
-                        companies' current circumstances. Additionally created marketing implements 
+                        companies' current circumstances. Additionally employed marketing tactics 
                         for the South Salem High School student store."
                     />
                     <SmallCard
@@ -101,19 +101,19 @@ function Skills() {
 
                 <div className="flex gap-4 mb-8">
                     <SmallCard
-                        title="Strong teamwork and collaborative abilities"
+                        title="Strong Teamwork and Collaborative Abilities"
                         content=""
                     />
                     <SmallCard
-                        title="Top-down problem solving mentality"
+                        title="Top-Down Problem Solving Mentality"
                         content=""
                     />
                     <SmallCard
-                        title="Ability to learn quickly"
+                        title="Ability to Learn Quickly"
                         content=""
                     />
                     <SmallCard
-                        title="Meticulous in task completion"
+                        title="Meticulous in Task Completion"
                         content=""
                     />
                 </div>
