@@ -10,11 +10,11 @@ function Skills() {
 
                 <div className="flex gap-4 mb-4">
                     <SmallCard
-                        title="Capable in many coding languages."
+                        title="Coding Languages."
                         content="Proficient in C, C++, C#, JavaScript, HTML5/CSS3, CUDA, Python, and Go."
                     />
                     <SmallCard
-                        title="Full-stack development"
+                        title="Full-Stack Development"
                         content="Can use Node.js (Express and EJS) as well as React."
                     />
                     <SmallCard
