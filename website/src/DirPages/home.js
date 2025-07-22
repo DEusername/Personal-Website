@@ -38,6 +38,7 @@ function Home() {
                                 <li><Link to="/skills">Skills</Link></li>
                                 <li><Link to="/software-projects">Software Projects</Link></li>
                                 <li><Link to="/business-projects">Business Projects</Link></li>
+                                <li><Link to="/misc-projects">Miscellaneous Projects</Link></li>
                             </ul>
                         </div>
                     </div>

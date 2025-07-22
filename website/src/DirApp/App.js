@@ -7,6 +7,7 @@ import About from '../DirPages/about.js'
 import Skills from '../DirPages/skills.js'
 import Software from '../DirPages/software.js'
 import Business from '../DirPages/business.js'
+import Misc from '../DirPages/misc.js'
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
                 <Route path="/skills" element={<Skills />} />
                 <Route path="/software-projects" element={<Software />} />
                 <Route path="/business-projects" element={<Business />} />
+                <Route path="/misc-projects" element={<Misc />} />
 
                 {/* Catch-all Route */}
                 <Route path="*" element={<Home />} />
