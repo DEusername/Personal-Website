@@ -1,8 +1,4 @@
-import { useState } from 'react';
-
 function Card({ title, content, linkDivs }) {
-
-    const [showPDF, setShowPDF] = useState(false);
 
     return (
         <div className="card bg-white w-96 shadow-sm">
@@ -15,15 +11,7 @@ function Card({ title, content, linkDivs }) {
             <div className="card-body items-center text-center">
                 <h3 className="card-title">{title}</h3>
                 <p>{content}</p>
-                <div className="card-actions">
-                    <button
-                        className="btn btn-primary font-bold"
-                        onClick={() => setShowPDF(!showPDF)}
-                    >
-                        {showPDF ? 'Hide PDF' : 'View PDF'}
-                    </button>
-                </div>
-                {showPDF ? linkDivs : null}
+                {linkDivs}
             </div>
         </div>
     );
