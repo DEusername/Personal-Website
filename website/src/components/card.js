@@ -10,7 +10,7 @@ function Card({ title, content, linkDivs }) {
             </figure>
             <div className="card-body items-center text-center">
                 <h3 className="card-title">{title}</h3>
-                <p>{content}</p>
+                <p className="">{content}</p>
                 {linkDivs}
             </div>
         </div>
