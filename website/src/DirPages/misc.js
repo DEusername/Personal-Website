@@ -1,4 +1,5 @@
 import Card from '../components/card.js'
+import PDFViewer from '../components/pdf_viewer.js';
 
 function Misc() {
     return (
@@ -13,8 +14,10 @@ function Misc() {
                         Level consideration in Math. I scored a 7/7."
                         linkDivs={
                             <div>
-                                <iframe src="./projects/IAs/Math_IA.pdf"
-                                    width="100%" height="400px"></iframe>
+                                <PDFViewer
+                                    pdfUrl={"./projects/IAs/Math_IA.pdf"}
+                                    label={"Report"}
+                                />
                             </div>}
                     />
                     <Card
@@ -23,17 +26,23 @@ function Misc() {
                         Level consideration in Physics. I scored a 4/7."
                         linkDivs={
                             <div>
-                                <iframe src="./projects/IAs/Physics_IA.pdf"
-                                    width="100%" height="400px"></iframe>
+                                <PDFViewer
+                                    pdfUrl={"./projects/IAs/Physics_IA.pdf"}
+                                    label={"Report"}
+                                />
                             </div>}
                     />
                     <Card
                         title="Technical Paper - Optimal Teaching Method"
-                        content=""
+                        content="A technical research paper designed to explain the most optimal
+                        instructional method for teaching subjects, such that students retain the 
+                        most information possible."
                         linkDivs={
                             <div>
-                                <iframe src=""
-                                    width="100%" height="400px"></iframe>
+                                <PDFViewer
+                                    pdfUrl={"./projects/Misc/Final-Technical-Report_Duncan-Everson_WR227.pdf"}
+                                    label={"Report"}
+                                />
                             </div>}
                     />
                 </div>
