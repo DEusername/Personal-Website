@@ -10,12 +10,17 @@ function Business() {
                 <div className="flex gap-4 mb-4">
                     <Card
                         title="Solar Roadways Innovation Management Project"
-                        content=""
+                        content="A team research report crafted to provide solutions to problems Solar
+                        Roadways Inc. faced leading up to their 2016 Sandpoint, Idaho test run."
                         linkDivs={
                             <div>
                                 <PDFViewer
                                     pdfUrl={"./projects/BA_Projects/Team-6_Solar-Roadways_BA363.pdf"}
                                     label={"Report"}
+                                />
+                                <PDFViewer
+                                    pdfUrl={"./projects/BA_Projects/Team-6_Project-Presentation_BA363.pdf"}
+                                    label={"Presentation"}
                                 />
                             </div>}
                     />
@@ -34,7 +39,9 @@ function Business() {
                     />
                     <Card
                         title="Integrated Marketing Campaign (Event) - E3"
-                        content=""
+                        content="A theoretical marketing plan designed to increase revenue and excitement
+                        around the Entertainment Software Association's E3 expo, and the games released 
+                        at this event."
                         linkDivs={
                             <div>
                                 <PDFViewer
@@ -51,7 +58,8 @@ function Business() {
                 <div className="flex gap-4 mb-4 justify-center">
                     <Card
                         title="Integrated Marketing Campaign (Service) - Marriott International"
-                        content=""
+                        content="A theoretical marketing campaign designed to increase revenue and customer loyalty 
+                        from Marriott International customers, and establish reusable systems for future campaigns."
                         linkDivs={
                             <div>
                                 <PDFViewer
@@ -66,7 +74,8 @@ function Business() {
                     />
                     <Card
                         title="International Business Plan - Boschi Viaggio"
-                        content=""
+                        content="A theoretical international business plan designed around bringing wealthy golfers
+                        from Japan to America to experience Oregon's high end golf resorts."
                         linkDivs={
                             <div>
                                 <PDFViewer
@@ -75,13 +84,14 @@ function Business() {
                                 />
                                 <PDFViewer
                                     pdfUrl={"./projects/DECA_Projects/Boschi_Viaggio/Boschi_Viaggio_Slideshow.pdf"}
-                                    label={"Slideshow"}
+                                    label={"Presentation"}
                                 />
                             </div>}
                     />
                     <Card
                         title="Integrated Marketing Campaign (Service) - AirBnB"
-                        content=""
+                        content="A theoretical marketing campaign designed to increase increase revenue and establish
+                        reusable systems that can be deployed in select areas to boost loyalty to AirBnB Experiences."
                         linkDivs={
                             <div>
                                 <PDFViewer
