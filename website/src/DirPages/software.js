@@ -12,13 +12,21 @@ function Software() {
             <main>
                 <div className="flex gap-4 mb-4">
                     <Card
-                        title="Front-end Design Project"
+                        title="Front-end UX Design Project"
                         content="A video game group management front-end developed in Figma, based on 
                         both Primary and Secondary research that my team and I conducted."
                         linkDivs={
                             <div>
                                 <AnchorButton
-                                    hrefVal={"./projects/BA_Projects/Team-6_Project-Presentation_BA363.pdf"}
+                                    hrefVal={`https://www.figma.com/proto/lfNCk8pbSrpqWgSxGhv1Cc/
+                                        Group-30---Final-Prototype?node-id=78-17707&p=f&t=
+                                        TF6E5Ss7TxIb0I2Y-0&scaling=scale-down&content-scaling=
+                                        fixed&page-id=0%3A1&starting-point-node-id=78%3A17707`}
+                                    label={"Prototype"}
+                                    color={"bg-violet-600 hover:bg-violet-800 text-white"}
+                                />
+                                <AnchorButton
+                                    hrefVal={"./projects/CS_Projects/Everson_Final-Presentation_CS352.pdf"}
                                     label={"Presentation"}
                                     color={"btn-primary"}
                                 />
@@ -30,7 +38,11 @@ function Software() {
                         the Google Cloud Platform, which return data on user defined intervals."
                         linkDivs={
                             <div>
-
+                                <AnchorButton
+                                    hrefVal={'https://github.com/FerretCode/scavenger'}
+                                    label={"GitHub"}
+                                    color={"bg-black hover:bg-gray-600 text-white"}
+                                />
                             </div>}
                     />
                     <Card
@@ -39,7 +51,16 @@ function Software() {
                         recipe search, meal plan generator, grocery list, grocery search, and nutrition log."
                         linkDivs={
                             <div>
-
+                                <AnchorButton
+                                    hrefVal={'https://meal-match-service.vercel.app'}
+                                    label={"Live Website"}
+                                    color={"btn-accent text-white"}
+                                />
+                                <AnchorButton
+                                    hrefVal={'https://github.com/FerretCode/scavenger'}
+                                    label={"GitHub"}
+                                    color={"bg-black hover:bg-gray-600 text-white"}
+                                />
                             </div>}
                     />
                 </div>
@@ -50,7 +71,11 @@ function Software() {
                         store games, and find out various peices of information about games."
                         linkDivs={
                             <div>
-
+                                <AnchorButton
+                                    hrefVal={''}
+                                    label={"GitHub"}
+                                    color={"bg-black hover:bg-gray-600 text-white"}
+                                />
                             </div>}
                     />
                     <Card
@@ -59,7 +84,16 @@ function Software() {
                         survival mode, a tutorial, and an original soundtrack produced by me."
                         linkDivs={
                             <div>
-
+                                <AnchorButton
+                                    hrefVal={''}
+                                    label={"Itch.io Page"}
+                                    color={"btn-accent text-white"}
+                                />
+                                <AnchorButton
+                                    hrefVal={''}
+                                    label={"GitHub"}
+                                    color={"bg-black hover:bg-gray-600 text-white"}
+                                />
                             </div>}
                     />
                     <Card
@@ -69,7 +103,11 @@ function Software() {
                         some limited signal handling."
                         linkDivs={
                             <div>
-
+                                <AnchorButton
+                                    hrefVal={''}
+                                    label={"GitHub"}
+                                    color={"bg-black hover:bg-gray-600 text-white"}
+                                />
                             </div>}
                     />
                 </div>
