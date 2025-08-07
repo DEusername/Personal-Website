@@ -62,10 +62,15 @@ function About() {
                         craft.
                     </p>
 
-                    <p>
+                    <p className='mb-4'>
                         I personally like to spend time with my family, lift weights, do creative writing,
                         and play video games. Additionally, I like to go out ballroom/country western
                         dancing during the week.
+                    </p>
+
+                    <p>
+                        I'm currently interested in various technologies. I am interested in Docker,
+                        Go, Tailwind/DaisyUI, and training local AI models.
                     </p>
                 </div>
 
