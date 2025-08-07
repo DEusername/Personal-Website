@@ -1,5 +1,5 @@
 import Card from '../components/card.js'
-import PDFViewer from '../components/pdf_viewer.js';
+import AnchorButton from '../components/anchor_button.js';
 
 function Misc() {
     return (
@@ -14,9 +14,10 @@ function Misc() {
                         Level consideration in Math. I scored a 7/7."
                         linkDivs={
                             <div>
-                                <PDFViewer
+                                <AnchorButton
                                     pdfUrl={"./projects/IAs/Math_IA.pdf"}
                                     label={"Report"}
+                                    color={"btn-primary"}
                                 />
                             </div>}
                     />
@@ -26,9 +27,10 @@ function Misc() {
                         Level consideration in Physics. I scored a 4/7."
                         linkDivs={
                             <div>
-                                <PDFViewer
+                                <AnchorButton
                                     pdfUrl={"./projects/IAs/Physics_IA.pdf"}
                                     label={"Report"}
+                                    color={"btn-primary"}
                                 />
                             </div>}
                     />
@@ -39,9 +41,10 @@ function Misc() {
                         most information possible."
                         linkDivs={
                             <div>
-                                <PDFViewer
+                                <AnchorButton
                                     pdfUrl={"./projects/Misc/Final-Technical-Report_Duncan-Everson_WR227.pdf"}
                                     label={"Report"}
+                                    color={"btn-primary"}
                                 />
                             </div>}
                     />

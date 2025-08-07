@@ -1,5 +1,6 @@
 import Card from '../components/card.js'
-import PDFViewer from '../components/pdf_viewer.js';
+import AnchorButton from '../components/anchor_button.js';
+
 
 function Software() {
     return (
@@ -16,7 +17,11 @@ function Software() {
                         both Primary and Secondary research that my team and I conducted."
                         linkDivs={
                             <div>
-
+                                <AnchorButton
+                                    hrefVal={"./projects/BA_Projects/Team-6_Project-Presentation_BA363.pdf"}
+                                    label={"Presentation"}
+                                    color={"btn-primary"}
+                                />
                             </div>}
                     />
                     <Card

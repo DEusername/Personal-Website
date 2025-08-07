@@ -1,5 +1,5 @@
 import Card from '../components/card.js'
-import PDFViewer from '../components/pdf_viewer.js';
+import AnchorButton from '../components/anchor_button.js';
 
 function Business() {
     return (
@@ -14,13 +14,15 @@ function Business() {
                         Roadways Inc. faced leading up to their 2016 Sandpoint, Idaho test run."
                         linkDivs={
                             <div>
-                                <PDFViewer
-                                    pdfUrl={"./projects/BA_Projects/Team-6_Solar-Roadways_BA363.pdf"}
+                                <AnchorButton
+                                    hrefVal={"./projects/BA_Projects/Team-6_Solar-Roadways_BA363.pdf"}
                                     label={"Report"}
+                                    color={"btn-primary"}
                                 />
-                                <PDFViewer
-                                    pdfUrl={"./projects/BA_Projects/Team-6_Project-Presentation_BA363.pdf"}
+                                <AnchorButton
+                                    hrefVal={"./projects/BA_Projects/Team-6_Project-Presentation_BA363.pdf"}
                                     label={"Presentation"}
+                                    color={"btn-primary"}
                                 />
                             </div>}
                     />
@@ -31,9 +33,10 @@ function Business() {
                         Level consideration in Business Management. I scored a 7/7."
                         linkDivs={
                             <div>
-                                <PDFViewer
-                                    pdfUrl={"./projects/IAs/Business_Management_IA.pdf"}
+                                <AnchorButton
+                                    hrefVal={"./projects/IAs/Business_Management_IA.pdf"}
                                     label={"Report"}
+                                    color={"btn-primary"}
                                 />
                             </div>}
                     />
@@ -44,13 +47,15 @@ function Business() {
                         at this event."
                         linkDivs={
                             <div>
-                                <PDFViewer
-                                    pdfUrl={"./projects/DECA_Projects/E3/E3_Written.pdf"}
+                                <AnchorButton
+                                    hrefVal={"./projects/DECA_Projects/E3/E3_Written.pdf"}
                                     label={"Written Project"}
+                                    color={"btn-primary"}
                                 />
-                                <PDFViewer
-                                    pdfUrl={"./projects/DECA_Projects/E3/E3_Slideshow.pdf"}
+                                <AnchorButton
+                                    hrefVal={"./projects/DECA_Projects/E3/E3_Slideshow.pdf"}
                                     label={"Presentation"}
+                                    color={"btn-primary"}
                                 />
                             </div>}
                     />
@@ -62,13 +67,15 @@ function Business() {
                         from Marriott International customers, and establish reusable systems for future campaigns."
                         linkDivs={
                             <div>
-                                <PDFViewer
-                                    pdfUrl={"./projects/DECA_Projects/Marriott_International/Marriott_Written.pdf"}
+                                <AnchorButton
+                                    hrefVal={"./projects/DECA_Projects/Marriott_International/Marriott_Written.pdf"}
                                     label={"Written Project"}
+                                    color={"btn-primary"}
                                 />
-                                <PDFViewer
-                                    pdfUrl={"./projects/DECA_Projects/Marriott_International/Marriott_Slideshow.pdf"}
+                                <AnchorButton
+                                    hrefVal={"./projects/DECA_Projects/Marriott_International/Marriott_Slideshow.pdf"}
                                     label={"Presentation"}
+                                    color={"btn-primary"}
                                 />
                             </div>}
                     />
@@ -78,13 +85,15 @@ function Business() {
                         from Japan to America to experience Oregon's high end golf resorts."
                         linkDivs={
                             <div>
-                                <PDFViewer
-                                    pdfUrl={"./projects/DECA_Projects/Boschi_Viaggio/Boschi_Viaggio_Written.pdf"}
+                                <AnchorButton
+                                    hrefVal={"./projects/DECA_Projects/Boschi_Viaggio/Boschi_Viaggio_Written.pdf"}
                                     label={"Written Project"}
+                                    color={"btn-primary"}
                                 />
-                                <PDFViewer
-                                    pdfUrl={"./projects/DECA_Projects/Boschi_Viaggio/Boschi_Viaggio_Slideshow.pdf"}
+                                <AnchorButton
+                                    hrefVal={"./projects/DECA_Projects/Boschi_Viaggio/Boschi_Viaggio_Slideshow.pdf"}
                                     label={"Presentation"}
+                                    color={"btn-primary"}
                                 />
                             </div>}
                     />
@@ -94,13 +103,15 @@ function Business() {
                         reusable systems that can be deployed in select areas to boost loyalty to AirBnB Experiences."
                         linkDivs={
                             <div>
-                                <PDFViewer
-                                    pdfUrl={"./projects/DECA_Projects/AirBnB/AirBnB_Written.pdf"}
+                                <AnchorButton
+                                    hrefVal={"./projects/DECA_Projects/AirBnB/AirBnB_Written.pdf"}
                                     label={"Written Project"}
+                                    color={"btn-primary"}
                                 />
-                                <PDFViewer
-                                    pdfUrl={"./projects/DECA_Projects/AirBnB/AirBnB_Slideshow.pdf"}
+                                <AnchorButton
+                                    hrefVal={"./projects/DECA_Projects/AirBnB/AirBnB_Slideshow.pdf"}
                                     label={"Presentation"}
+                                    color={"btn-primary"}
                                 />
                             </div>}
                     />

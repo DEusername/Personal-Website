@@ -1,9 +1,9 @@
-const PDFViewer = ({ pdfUrl, label }) => {
+const AnchorButton = ({ hrefVal, label, color }) => {
     return (
         <div className='mt-2'>
             <div className="card-actions justify-center">
-                <a className='btn btn-primary font-bold'
-                    href={pdfUrl} target='blank'
+                <a className={`btn ${color} font-bold`}
+                    href={hrefVal} target='blank'
                 >
                     {`View ${label}`}
                 </a>
@@ -12,4 +12,4 @@ const PDFViewer = ({ pdfUrl, label }) => {
     );
 };
 
-export default PDFViewer
+export default AnchorButton
