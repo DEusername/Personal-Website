@@ -6,7 +6,7 @@ function Navbar() {
     return (
         <div className="navbar bg-base-100 shadow-sm">
             <div className="navbar-start">
-                <Link to="/Home" className="btn btn-ghost text-xl">Home</Link>
+                <Link to="/" className="btn btn-ghost text-xl">Home</Link>
             </div>
             <div className="navbar-center font-medium">
                 <ul className="menu menu-horizontal px-1 text-lg">
