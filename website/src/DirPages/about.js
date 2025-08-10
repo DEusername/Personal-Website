@@ -70,7 +70,7 @@ function About() {
 
                     <p>
                         I'm currently interested in various technologies. I am interested in Docker,
-                        Go, Tailwind/DaisyUI, and training local AI models.
+                        Go, Tailwind/DaisyUI, and Ollama for running locally hosted AI models.
                     </p>
                 </div>
 

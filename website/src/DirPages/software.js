@@ -12,6 +12,25 @@ function Software() {
             <main>
                 <div className="flex gap-4 mb-4">
                     <Card
+                        title="Portfolio Website"
+                        content="A website designed to act as a portfolio of my projects, as well as
+                        an introduction to myself. The website you're on is a live version of this 
+                        project."
+                        linkDivs={
+                            <div>
+                                <AnchorButton
+                                    hrefVal={'/'}
+                                    label={"Home"}
+                                    color={"btn btn-ghost border-gray-500"}
+                                />
+                                <AnchorButton
+                                    hrefVal={'https://github.com/FerretCode/scavenger'}
+                                    label={"GitHub"}
+                                    color={"bg-black hover:bg-gray-600 text-white"}
+                                />
+                            </div>}
+                    />
+                    <Card
                         title="Front-end UX Design Project"
                         content="A video game group management front-end developed in Figma, based on 
                         both Primary and Secondary research that my team and I conducted."
@@ -45,6 +64,8 @@ function Software() {
                                 />
                             </div>}
                     />
+                </div>
+                <div className="flex gap-4 mb-4">
                     <Card
                         title="Meal Match"
                         content="A meal planning and logging hub service. Features include a food diary, 
@@ -57,14 +78,12 @@ function Software() {
                                     color={"btn-accent text-white"}
                                 />
                                 <AnchorButton
-                                    hrefVal={'https://github.com/FerretCode/scavenger'}
+                                    hrefVal={'https://github.com/shiningn-osu/software-dev-ii-project'}
                                     label={"GitHub"}
                                     color={"bg-black hover:bg-gray-600 text-white"}
                                 />
                             </div>}
                     />
-                </div>
-                <div className="flex gap-4 mb-4">
                     <Card
                         title="Video Game Library Website (Microservice Architecture)"
                         content="A video game hub website featuring the ability to get recommended games,
@@ -96,6 +115,8 @@ function Software() {
                                 />
                             </div>}
                     />
+                </div>
+                <div className="flex gap-4 mb-4">
                     <Card
                         title="Small Shell"
                         content="A small and limited shell program. It features process execution 
