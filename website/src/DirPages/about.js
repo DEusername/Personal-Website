@@ -33,13 +33,6 @@ function About() {
                                 alt='A man with brown hair standing in front of a mirror in a gym, 
                                 with gym equipment visible, taking a mirror selfie.'/>
                         </div>
-                        <div className="carousel-item">
-                            <img
-                                src="./images/bedroom-mirror.jpeg"
-                                className="rounded-box max-h-96"
-                                alt='A man with brown hair standing in front of a bedroom mirror taking
-                            a mirror selfie in front of his bed.'/>
-                        </div>
                     </div>
                 </div>
 

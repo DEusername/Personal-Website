@@ -24,7 +24,7 @@ function Software() {
                                     color={"btn btn-ghost border-gray-500"}
                                 />
                                 <AnchorButton
-                                    hrefVal={'https://github.com/FerretCode/scavenger'}
+                                    hrefVal={'https://github.com/DEusername/Personal-Website'}
                                     label={"GitHub"}
                                     color={"bg-black hover:bg-gray-600 text-white"}
                                 />
