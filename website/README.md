@@ -2,6 +2,39 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Directory Guide
+Here you will find a guide to understanding the contents of the directories of the client directory
+
+### public Entails: 
+The public directory houses static assets that should be served as-is, without being processed by Webpack or other build tools. This directory also contains the index.html file, which react injects the app from the src directory into.
+
+[public](./public)
+
+### src Entails: 
+The src directory houses the source code for the application. This is where the core logic and UI components of the app are defined. The contents of the src/ directory are processed by Webpack, meaning files in src/ are compiled and bundled before being served to the browser via index.html in the public directory.
+
+[src](./src)
+
+## File Information
+Here you will find a guide to understanding the files of the client directory
+
+### package.json
+Lists the project's dependencies, scripts, and metadata. This file is essential for managing packages and running npm commands.
+
+[package.json](./package.json)
+
+### package-lock.json Entails:
+
+locks all of the versions of the node package manager dependencies that the client directory utilizes. The command 'npm install' will always install the versions of the dependencies listed in package-lock.json
+
+[package-lock.json](./package-lock.json)
+
+### tailwind.config.js
+
+Configures Tailwind CSS to scan React files in `src/`, adds a custom `neonblue` color, and enables DaisyUI with several themes.
+
+[tailwind.config.js](./tailwind.config.js)
+
 ## Available Scripts
 
 In the project directory, you can run:

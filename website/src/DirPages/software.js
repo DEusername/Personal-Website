@@ -54,7 +54,8 @@ function Software() {
                     <Card
                         title="Scavenger"
                         content="A service that allows users to run AI powered web scraping workflows in
-                        the Google Cloud Platform, which return data on user defined intervals."
+                        the Google Cloud Platform, which return data on user defined intervals. This was
+                        made for a 24 hour Hackathon"
                         linkDivs={
                             <div>
                                 <AnchorButton
@@ -125,7 +126,7 @@ function Software() {
                         linkDivs={
                             <div>
                                 <AnchorButton
-                                    hrefVal={''}
+                                    hrefVal={'https://github.com/DEusername/CS374_Assign3'}
                                     label={"GitHub"}
                                     color={"bg-black hover:bg-gray-600 text-white"}
                                 />
