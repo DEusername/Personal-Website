@@ -1,3 +1,5 @@
+# Public README
+
 ## Directory Guide
 Here you will find a guide to understanding the contents of the directories of the client directory
 
