@@ -78,6 +78,7 @@ function Software() {
                                     label={"Live Website"}
                                     color={"btn-accent text-white"}
                                 />
+                                <p className='m-2'><b>(~1 minute cold start for server.)</b></p>
                                 <AnchorButton
                                     hrefVal={'https://github.com/shiningn-osu/software-dev-ii-project'}
                                     label={"GitHub"}
@@ -85,20 +86,8 @@ function Software() {
                                 />
                             </div>}
                     />
-                    <Card
-                        title="Video Game Library Website (Microservice Architecture)"
-                        content="A video game hub website featuring the ability to get recommended games,
-                        store games, and find out various peices of information about games."
-                        linkDivs={
-                            <div>
-                                <AnchorButton
-                                    hrefVal={''}
-                                    label={"GitHub"}
-                                    color={"bg-black hover:bg-gray-600 text-white"}
-                                />
-                            </div>}
-                    />
-                    <Card
+                    {/* Currently a work in progress. Not ready for public view yet. */}
+                    {/* <Card
                         title="Endure Galactic"
                         content="A top-down, 2D, space arcade survival video game. It features both a
                         survival mode, a tutorial, and an original soundtrack produced by me."
@@ -115,9 +104,7 @@ function Software() {
                                     color={"bg-black hover:bg-gray-600 text-white"}
                                 />
                             </div>}
-                    />
-                </div>
-                <div className="flex gap-4 mb-4">
+                    /> */}
                     <Card
                         title="Small Shell"
                         content="A small and limited shell program. It features process execution 
