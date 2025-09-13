@@ -15,7 +15,7 @@ function Misc() {
                         linkDivs={
                             <div>
                                 <AnchorButton
-                                    pdfUrl={"./projects/IAs/Math_IA.pdf"}
+                                    hrefVal={"./projects/IAs/Math_IA.pdf"}
                                     label={"Report"}
                                     color={"btn-primary"}
                                 />
@@ -28,7 +28,7 @@ function Misc() {
                         linkDivs={
                             <div>
                                 <AnchorButton
-                                    pdfUrl={"./projects/IAs/Physics_IA.pdf"}
+                                    hrefVal={"./projects/IAs/Physics_IA.pdf"}
                                     label={"Report"}
                                     color={"btn-primary"}
                                 />
@@ -42,7 +42,7 @@ function Misc() {
                         linkDivs={
                             <div>
                                 <AnchorButton
-                                    pdfUrl={"./projects/Misc/Final-Technical-Report_Duncan-Everson_WR227.pdf"}
+                                    hrefVal={"./projects/Misc/Final-Technical-Report_Duncan-Everson_WR227.pdf"}
                                     label={"Report"}
                                     color={"btn-primary"}
                                 />
