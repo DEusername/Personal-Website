@@ -106,6 +106,20 @@ function Software() {
                             </div>}
                     /> */}
                     <Card
+                        title="MySQL Database Manager"
+                        content="A small web app relating to a fictional clothing business that 
+                        allows users to manage MySQL databases. It features CRUD operations for 
+                        each database entity related to the fictional business."
+                        linkDivs={
+                            <div>
+                                <AnchorButton
+                                    hrefVal={'https://github.com/DEusername/CS340_Group_Project'}
+                                    label={"GitHub"}
+                                    color={"bg-black hover:bg-gray-600 text-white"}
+                                />
+                            </div>}
+                    />
+                    <Card
                         title="Small Shell"
                         content="A small and limited shell program. It features process execution 
                         (Foreground and Background), file management, input/output redirection, and 
