@@ -11,7 +11,7 @@ import Misc from '../DirPages/misc.js'
 
 function App() {
     return (
-        <Router>
+        <Router basename="/Personal-Website">
             <Navbar />  {/* Visible on all pages */}
             <Routes>
                 {/* Home Routes */}

@@ -19,7 +19,7 @@ function Home() {
                             or by clicking the email button.
                         </p>
 
-                        <img src="images/professional.jpeg" alt="A man with glasses and 
+                        <img src="./images/professional.jpeg" alt="A man with glasses and 
                         brown hair in a suit in front of a fountain"
                             className='w-72 rounded-2xl'>
                         </img>
