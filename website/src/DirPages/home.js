@@ -16,7 +16,7 @@ function Home() {
                             some facts about my character and skills on this site too, so feel free to
                             also examine those. If you would like to reach out to me, please
                             email me at <span className='font-bold'>duncan.everson@icloud.com</span>,
-                            or by clicking the email button.
+                            or by clicking the 'Email' button.
                         </p>
 
                         <img src={`${process.env.PUBLIC_URL}/images/professional.jpeg`}
