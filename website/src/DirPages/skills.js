@@ -6,12 +6,15 @@ function Skills() {
             <main>
                 <h1 className="text-center font-bold text-shadow-sm text-4xl m-4">Skills</h1>
 
-                <h2 className='text-left font-bold text-shadow-sm text-2xl m-4'>Software Engineering Skills</h2>
+                <hr className='border-t-2 border-gray-400 my-4 lg:hidden' />
 
-                <div className="flex gap-4 mb-4">
+                <h2 className='text-center lg:text-left font-bold text-shadow-sm text-2xl m-4'>Software Engineering Skills</h2>
+
+                <div className="flex flex-col items-center lg:flex-row gap-4 mb-4">
                     <SmallCard
                         title="Coding Languages"
-                        content="Proficient in C, C++, C#, JavaScript, HTML5/CSS3, CUDA, Python, and Go."
+                        content="Proficient in C, C++, C#, JavaScript, HTML5/CSS3, CUDA, Python, Go, Haskell, 
+                        and Prolog."
                     />
                     <SmallCard
                         title="Full-Stack Development"
@@ -22,7 +25,7 @@ function Skills() {
                         content="Familiarity with File Systems, Permissions, and Process Management."
                     />
                 </div>
-                <div className="flex gap-4 mb-4">
+                <div className="flex flex-col items-center lg:flex-row gap-4 mb-4">
                     <SmallCard
                         title="Networking"
                         content="Capable of implementing TCP/IP networking and socket programming in C."
@@ -37,7 +40,7 @@ function Skills() {
                         via Ollama."
                     />
                 </div>
-                <div className="flex gap-4 mb-4">
+                <div className="flex flex-col items-center lg:flex-row gap-4 mb-4">
                     <SmallCard
                         title="Testing"
                         content="Hands-on experience with unit/integration tests 
@@ -55,7 +58,7 @@ function Skills() {
                         integration and deployment."
                     />
                 </div>
-                <div className="flex gap-4">
+                <div className="flex flex-col items-center lg:flex-row gap-4">
                     <SmallCard
                         title="Parallel Processing"
                         content="Capable of using OpenMP, OpenCL, CUDA, and MPI for conducting
@@ -72,11 +75,11 @@ function Skills() {
                     />
                 </div>
 
+                <hr className='border-t-2 border-gray-400 my-4 lg:hidden' />
 
+                <h2 className='text-center lg:text-left font-bold text-shadow-sm text-2xl m-4'>Business Management Skills</h2>
 
-                <h2 className='text-left font-bold text-shadow-sm text-2xl m-4'>Business Management Skills</h2>
-
-                <div className="flex gap-4">
+                <div className="flex flex-col items-center lg:flex-row gap-4">
                     <SmallCard
                         title="Project Management"
                         content="Led and worked in teams using Agile methodologies to deliver 
@@ -95,11 +98,11 @@ function Skills() {
                     />
                 </div>
 
+                <hr className='border-t-2 border-gray-400 my-4 lg:hidden' />
 
+                <h2 className='text-center lg:text-left font-bold text-shadow-sm text-2xl m-4'>Soft Skills</h2>
 
-                <h2 className='text-left font-bold text-shadow-sm text-2xl m-4'>Soft Skills</h2>
-
-                <div className="flex gap-4 mb-8">
+                <div className="flex flex-col items-center lg:flex-row gap-4 mb-8">
                     <SmallCard
                         title="Strong Teamwork and Collaborative Abilities"
                         content=""

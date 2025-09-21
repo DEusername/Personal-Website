@@ -7,7 +7,7 @@ function Business() {
             <h1 className="text-center font-bold text-shadow-sm text-4xl m-4">Business Projects</h1>
 
             <main>
-                <div className="flex gap-4 mb-4">
+                <div className="flex flex-col items-center lg:flex-row gap-4 mb-4">
                     <Card
                         title="Solar Roadways Innovation Management Project"
                         content="A team research report crafted to provide solutions to problems Solar
@@ -60,7 +60,7 @@ function Business() {
                             </div>}
                     />
                 </div>
-                <div className="flex gap-4 mb-4 justify-center">
+                <div className="flex flex-col items-center lg:flex-row gap-4 mb-4 justify-center">
                     <Card
                         title="Integrated Marketing Campaign (Service) - Marriott International"
                         content="A theoretical marketing campaign designed to increase revenue and customer loyalty 

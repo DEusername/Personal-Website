@@ -9,8 +9,14 @@ function Home() {
                 </div>
 
                 <div>
-                    <div className='flex flex-row gap-4 justify-center'>
-                        <p className="bubble text-left p-6 w-2/5">
+                    <div className='flex flex-col lg:flex-row gap-4 justify-center'>
+
+                        <img src={`${process.env.PUBLIC_URL}/images/professional.jpeg`}
+                            alt="A man with glasses and brown hair in a suit in front of a fountain"
+                            className='w-72 rounded-2xl mx-auto lg:mx-0'>
+                        </img>
+
+                        <p className="bubble text-left p-6 w-full lg:w-2/5">
                             Hello, and welcome to my website! My name is Duncan Everson, and I've created this
                             website to act as a storage for my professional projects. I've also included
                             some facts about my character and skills on this site too, so feel free to
@@ -18,17 +24,13 @@ function Home() {
                             email me at <span className='font-bold'>duncan.everson@icloud.com</span>,
                             or by clicking the 'Email' button.
                         </p>
-
-                        <img src={`${process.env.PUBLIC_URL}/images/professional.jpeg`}
-                            alt="A man with glasses and brown hair in a suit in front of a fountain"
-                            className='w-72 rounded-2xl'>
-                        </img>
                     </div>
 
                     <div className="flex justify-center">
                         <div className="dropdown dropdown-bottom relative">
                             <button className="mt-4 text-xl shadow-lg btn bg-neonblue
-                             hover:bg-blue-100">
+                             hover:bg-blue-100"
+                                tabIndex={0}>
                                 Please enjoy reading over my website!
                             </button>
 

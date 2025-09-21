@@ -10,7 +10,7 @@ function Software() {
             </h1>
 
             <main>
-                <div className="flex gap-4 mb-4">
+                <div className="flex flex-col items-center lg:flex-row gap-4 mb-4">
                     <Card
                         title="Portfolio Website"
                         content="A website designed to act as a portfolio of my projects, as well as
@@ -66,7 +66,7 @@ function Software() {
                             </div>}
                     />
                 </div>
-                <div className="flex gap-4 mb-4">
+                <div className="flex flex-col items-center lg:flex-row gap-4 mb-4">
                     <Card
                         title="Meal Match"
                         content="A meal planning and logging hub service. Features include a food diary, 

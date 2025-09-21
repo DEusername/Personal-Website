@@ -7,7 +7,7 @@ function Misc() {
             <h1 className="text-center font-bold text-shadow-sm text-4xl m-4">Miscellaneous Projects</h1>
 
             <main>
-                <div className="flex gap-4 mb-4">
+                <div className="flex flex-col items-center lg:flex-row gap-4 mb-4">
                     <Card
                         title="IB IA (Math SL) - Monopoly Probability Study"
                         content="International Baccalaureate Internal Assessment submitted for Standard
