@@ -7,7 +7,7 @@ A personal website explaining projects I've made and worked on, and general skil
 ## Directory Guide
 
 ### website Entails: 
-The components directory houses reusable components of the react project, as well as the unit testing suites designed to test those reusable components.
+The website directory houses the code and dependencies for the various portions of the react project.
 
 [website](./website)
 
