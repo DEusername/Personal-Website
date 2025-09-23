@@ -86,25 +86,24 @@ function Software() {
                                 />
                             </div>}
                     />
-                    {/* Currently a work in progress. Not ready for public view yet. */}
-                    {/* <Card
+                    <Card
                         title="Endure Galactic"
                         content="A top-down, 2D, space arcade survival video game. It features both a
                         survival mode, a tutorial, and an original soundtrack produced by me."
                         linkDivs={
                             <div>
                                 <AnchorButton
-                                    hrefVal={''}
+                                    hrefVal={'https://duncan-everson.itch.io/endure-galactic'}
                                     label={"Itch.io Page"}
                                     color={"btn-accent text-white"}
                                 />
                                 <AnchorButton
-                                    hrefVal={''}
+                                    hrefVal={'https://github.com/DEusername/Endure-Galactic'}
                                     label={"GitHub"}
                                     color={"bg-black hover:bg-gray-600 text-white"}
                                 />
                             </div>}
-                    /> */}
+                    />
                     <Card
                         title="MySQL Database Manager"
                         content="A small web app relating to a fictional clothing business that 
@@ -119,6 +118,8 @@ function Software() {
                                 />
                             </div>}
                     />
+                </div>
+                <div className="flex flex-col items-center lg:flex-row gap-4 mb-4">
                     <Card
                         title="Small Shell"
                         content="A small and limited shell program. It features process execution 
