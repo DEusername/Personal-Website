@@ -16,7 +16,7 @@ function Home() {
                             className='w-72 rounded-2xl mx-auto lg:mx-0'>
                         </img>
 
-                        <p className="bubble text-left p-6 w-full lg:w-2/5">
+                        <p className="bubble bg-white text-left p-6 w-full lg:w-2/5">
                             Hello, and welcome to my website! My name is Duncan Everson, and I've created this
                             website to act as a storage for my professional projects. I've also included
                             some facts about my character and skills on this site too, so feel free to

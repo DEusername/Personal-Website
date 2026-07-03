@@ -37,7 +37,7 @@ function About() {
                 </div>
 
 
-                <div className='bubble text-left mx-auto mb-8 w-4/5'>
+                <div className='bubble bg-white text-left mx-auto mb-8 w-4/5'>
                     <p className='mb-4'>
                         My name is Duncan Everson. I live in Oregon and am majoring in Computer
                         Science and am minoring in Innovation and Entrepreneurship.
