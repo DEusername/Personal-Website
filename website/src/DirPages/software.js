@@ -73,12 +73,12 @@ function Software() {
                         recipe search, meal plan generator, grocery list, grocery search, and nutrition log."
                         linkDivs={
                             <div>
+                                <p className='m-2'><b>(~1 minute for server cold start.)</b></p>
                                 <AnchorButton
                                     hrefVal={'https://meal-match-service.vercel.app'}
                                     label={"Live Website"}
                                     color={"btn-accent text-white"}
                                 />
-                                <p className='m-2'><b>(~1 minute cold start for server.)</b></p>
                                 <AnchorButton
                                     hrefVal={'https://github.com/shiningn-osu/software-dev-ii-project'}
                                     label={"GitHub"}

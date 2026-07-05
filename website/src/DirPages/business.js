@@ -9,6 +9,73 @@ function Business() {
             <main>
                 <div className="flex flex-col items-center lg:flex-row gap-4 mb-4">
                     <Card
+                        title="Nanomand Commercialization Consultancy"
+                        content="A team consultancy project in which a commercialization plan was created 
+                        for a nanotechnology startup called Nanomand."
+                        linkDivs={
+                            <div>
+                                <AnchorButton
+                                    hrefVal={"./projects/BA_Projects/Nanomand-Final-Report_BA468.pdf"}
+                                    label={"Report"}
+                                    color={"btn-primary"}
+                                />
+                                <AnchorButton
+                                    hrefVal={"./projects/BA_Projects/Nanomand-Final-Slides_BA468.pdf"}
+                                    label={"Presentation"}
+                                    color={"btn-primary"}
+                                />
+                                <AnchorButton
+                                    hrefVal={`https://nanomand.com/`}
+                                    label={"Nanomand Website"}
+                                    color={"btn-accent text-white"}
+                                />
+                            </div>}
+                    />
+                    <Card
+                        title="WinCo Online Experience Design Project"
+                        content="A team design project crafted to enhance the usability of 
+                        WinCo's online shopping experience."
+                        linkDivs={
+                            <div>
+                                <AnchorButton
+                                    hrefVal={`https://www.figma.com/proto/yKy7Il1thMmmoR4ttVzrbi/
+                                        Medium-Fidelity-Prototype?node-id=0-1&t=ZaP9iR84pqcVnc74-1`}
+                                    label={"Prototype"}
+                                    color={"bg-violet-600 hover:bg-violet-800 text-white"}
+                                />
+                                <AnchorButton
+                                    hrefVal={"./projects/BA_Projects/Team-5_Design-Executive-Summary_DSGN341.pdf"}
+                                    label={"Executive Summary"}
+                                    color={"btn-primary"}
+                                />
+                                <AnchorButton
+                                    hrefVal={"./projects/BA_Projects/Team-5_Winco-Presentation_DSGN341.pdf"}
+                                    label={"Presentation"}
+                                    color={"btn-primary"}
+                                />
+                            </div>}
+                    />
+                    <Card
+                        title="GripSkin Entrepreneurship Project"
+                        content="A team entrepreneurship project designed to plan and market a 
+                        new assistive squatting device for weightlifters."
+                        linkDivs={
+                            <div>
+                                <AnchorButton
+                                    hrefVal={"./projects/BA_Projects/GripSkin-Discovery-&-Design-Report_BA260.pdf"}
+                                    label={"Report"}
+                                    color={"btn-primary"}
+                                />
+                                <AnchorButton
+                                    hrefVal={"./projects/BA_Projects/GripSkin-Presentation_BA260.pdf"}
+                                    label={"Presentation"}
+                                    color={"btn-primary"}
+                                />
+                            </div>}
+                    />
+                </div>
+                <div className="flex flex-col items-center lg:flex-row gap-4 mb-4">
+                    <Card
                         title="Solar Roadways Innovation Management Project"
                         content="A team research report crafted to provide solutions to problems Solar
                         Roadways Inc. faced leading up to their 2016 Sandpoint, Idaho test run."
