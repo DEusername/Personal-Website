@@ -9,6 +9,19 @@ function Misc() {
             <main>
                 <div className="flex flex-col items-center lg:flex-row gap-4 mb-4">
                     <Card
+                        title="O&B Film Club Problem-Solving Consultancy"
+                        content="A team project in which a problem-solving approach was developed 
+                        to address a core management issue plagueing the O&B Film Club at OSU."
+                        linkDivs={
+                            <div>
+                                <AnchorButton
+                                    hrefVal={"./projects/Misc/Final-Presentation_BA361.pdf"}
+                                    label={"Presentation"}
+                                    color={"btn-primary"}
+                                />
+                            </div>}
+                    />
+                    <Card
                         title="IB IA (Math SL) - Monopoly Probability Study"
                         content="International Baccalaureate Internal Assessment submitted for Standard
                         Level consideration in Math. I scored a 7/7."
@@ -34,6 +47,8 @@ function Misc() {
                                 />
                             </div>}
                     />
+                </div>
+                <div className="flex flex-col items-center lg:flex-row gap-4 mb-4">
                     <Card
                         title="Technical Paper - Optimal Teaching Method"
                         content="A technical research paper designed to explain the most optimal
